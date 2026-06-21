@@ -11,9 +11,8 @@ renv/staging/
 .venv_robyn/
 __pycache__/
 
-# Large model/output artifacts -- regenerate, don't version
+# Large model objects -- regenerate from code, don't version
 outputs/models/*.RDS
-outputs/plots/*.png
 
 # OS
 .DS_Store
