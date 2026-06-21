@@ -1,0 +1,18 @@
+# R / renv
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+renv/library/
+renv/python/
+renv/staging/
+
+# Python venv used for the reticulate bridge
+.venv_robyn/
+__pycache__/
+
+# Large model objects -- regenerate from code, don't version
+outputs/models/*.RDS
+
+# OS
+.DS_Store
